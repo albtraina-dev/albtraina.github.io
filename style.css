@@ -50,3 +50,13 @@ section{
 h2{
     color:#2563eb;
 }
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+
+header p{
+    font-size:1.3rem;
+}
