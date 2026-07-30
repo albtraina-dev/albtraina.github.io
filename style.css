@@ -33,6 +33,7 @@ header::before{
     position:absolute;
     inset:0;
     background:rgba(0,0,0,0.45);
+    z-index:0;
 }
 
 section{
@@ -70,4 +71,37 @@ header img{
     border-radius:50%;
     margin-bottom:15px;
     border:0px solid white;
+    z-index:1;
+}
+
+header img,
+header h1,
+header p{
+    animation: fadeInUp 1s ease forwards;
+    opacity:0;
+}
+
+header img{
+    animation-delay:0.2s;
+}
+
+header h1{
+    animation-delay:0.5s;
+}
+
+header p{
+    animation-delay:0.8s;
+}
+
+
+@keyframes fadeInUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
