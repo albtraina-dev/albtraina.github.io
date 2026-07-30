@@ -5,19 +5,29 @@ body{
     color:#333;
 }
 
+
 header{
-    background:#ffffff;
-    color:#333;
+    position:relative;
+    background-image: url("images/sfondo.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
     text-align:center;
-    padding:60px 20px;
+    padding:100px 20px;
+    min-height:300px;
 }
 
-header img{
-    width:180px;
-    height:180px;
-    object-fit:cover;
-    border-radius:50%;
-    margin-bottom:20px;
+header h1,
+header p{
+    position:relative;
+    z-index:1;
+}
+
+header::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.45);
 }
 
 section{
