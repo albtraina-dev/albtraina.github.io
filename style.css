@@ -8,13 +8,16 @@ body{
 
 header{
     position:relative;
-    background-image: url("https://picsum.photos/1200/500");
+    background-image: url("images/sfondo.jpeg");
     background-size:cover;
     background-position:center;
     color:white;
     text-align:center;
-    padding:100px 20px;
+    padding:140px 20px;
     min-height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 header h1,
