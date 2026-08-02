@@ -1,8 +1,14 @@
 body{
     margin:0;
     font-family:'Inter', sans-serif;
-    background:#faf9f6;
     color:#1f2937;
+
+    background:linear-gradient(
+        180deg,
+        #fafaf8 0%,
+        #f4f8fc 50%,
+        #fafafa 100%
+    );
 }
 
 
@@ -50,6 +56,22 @@ section{
     box-shadow:0 8px 25px rgba(0,0,0,0.08);
 }
 
+.card{
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
 h2{
     color:#0f3d5e;
 }
@@ -91,6 +113,14 @@ header h1{
 
 header p{
     animation-delay:0.8s;
+}
+
+
+header,
+.page-header{
+
+    background-attachment:fixed;
+
 }
 
 
