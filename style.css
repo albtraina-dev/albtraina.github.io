@@ -361,3 +361,131 @@ h3{
     font-family:'Playfair Display', serif;
     font-size:1.5rem;
 }
+
+
+/* =========================
+   PUBLICATIONS
+========================= */
+
+.publications-intro {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.publications-intro p {
+    line-height: 1.8;
+}
+
+
+.featured-publications {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.featured-publications > h2,
+.all-publications > h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.featured-paper {
+    background: white;
+    padding: 35px;
+    margin: 30px 0;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+
+.featured-paper:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+
+.featured-paper-content {
+    max-width: 850px;
+}
+
+
+.paper-topic {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+
+.featured-paper h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+
+.featured-paper h3 a {
+    color: #222;
+    text-decoration: none;
+}
+
+
+.featured-paper h3 a:hover {
+    color: #2563eb;
+}
+
+
+.paper-authors {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.featured-paper p {
+    line-height: 1.7;
+}
+
+
+.all-publications {
+    max-width: 800px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+
+.all-publications p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+.ads-button {
+    display: inline-block;
+    padding: 16px 28px;
+
+    background: #222;
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    border-radius: 8px;
+
+    transition: transform 0.2s ease,
+                background 0.2s ease;
+}
+
+
+.ads-button:hover {
+    transform: translateY(-2px);
+    background: #444;
+}
