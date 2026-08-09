@@ -334,3 +334,30 @@ h3{
     background:#f8fafc;
 
 }
+
+.research-extension{
+
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin:60px 0 30px;
+
+}
+
+.research-extension .research-image{
+    flex:0 0 40%;
+}
+
+.research-extension .research-image img{
+    width:85%;
+    max-width:450px;
+}
+
+.research-extension .research-text{
+    flex:1;
+}
+
+.research-extension h3{
+    font-family:'Playfair Display', serif;
+    font-size:1.5rem;
+}
